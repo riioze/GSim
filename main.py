@@ -27,8 +27,8 @@ taa = len(listet[0])
 a = "0"
 b = "0"
 
-for x in range(len(listeH)):
-	print(listeH[x])
+# for x in range(len(listeH)):
+# 	print(listeH[x])
 
 r = int(input("Qelle population voulez vous atteindre ? : "))
 
@@ -107,6 +107,6 @@ while r > len(listeH):
 	fb.write(str(len(p[1])) + "\n")
 	faa.write(str(taa) + "\n")
 	faap.write(caap + "\n")
-	print(Année)
+	# print(Année)
 
 print(time.time()-ti)
