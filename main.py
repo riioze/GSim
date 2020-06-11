@@ -36,6 +36,7 @@ t = int(input("taux de reproduction : "))
 c = 0
 ti = time.time()
 Année = 0
+pourcentage2 = 0
 while r > len(listeH):
 	
 	
@@ -107,6 +108,9 @@ while r > len(listeH):
 	fb.write(str(len(p[1])) + "\n")
 	faa.write(str(taa) + "\n")
 	faap.write(caap + "\n")
-	# print(Année)
+	pourcentage = r/len(listeH)
+	if pourcentage >= pourcentage2+1:
+		poucetage2 += 1
+		print(pourcentage2)
 
 print(time.time()-ti)
